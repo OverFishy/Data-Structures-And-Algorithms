@@ -1,0 +1,25 @@
+-Trees are non-linear data structures that contain a root and chile nodes.
+-Binary trees can have values of any type, but at most 2 childred per parent.
+-Binary search tree, a specific binary tree version where every node to the left
+ of a parent is less then it's value, and every node to the right is greater.
+ binary search trees should hold data you can compare.
+
+Quick Tree terminology:
+
+Root - the top node in a tree.
+Child - a node directly connected to another node,
+when moving away from the root.
+Parent - the converse notion of a child.
+Siblings - a group of nodes with the same parent.
+Lead - a node with no children.
+Edge - the connection between one node and another.
+
+Use cases for trees:
+
+HTML DOM - tree like structure. got elements that inside of them, nested
+other elements, the children, and we an keep having more children nesten in
+them going further down.
+
+Folders in opperating systems.
+
+JASON / {}

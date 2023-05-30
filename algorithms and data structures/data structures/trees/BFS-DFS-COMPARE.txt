@@ -1,0 +1,25 @@
+Which traverse method will I use on a given tree?
+Speaking on time complexity, they are the same - visiting every node one time.
+Speaking about space complexity is when things changes.
+
+When speaking about very wide trees, if we choose the Breadth-first approach, we will
+create a queue that will store the left and right of all the nodes we went over,
+this could fill up the queue and require large amounts of memory to handle.
+
+When speaking about very long trees, Depth-first could take up alot more space
+because the more nodes you travle down, the more node branches you need to store
+in memory to be visited later.
+
+to recap on best practice:
+Wide trees - Depth-first.
+Long narrow trees - Breadth-first.
+--------------------------------------------------------------------------------
+In order/Pre order/Post order
+
+When using In order on a binary search tree:
+-The data we get back from the tree is in order (lowest-highest).
+
+When using Pre order on a binary search tree:
+-Can be used to "export" a tree structure so that it is easily reconstructed or copied.
+-Because of the order it puts, the same order the nodes are orginaized.
+

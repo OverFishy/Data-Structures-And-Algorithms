@@ -1,0 +1,18 @@
+Big o of SLL:
+insertion - o(1)
+removal - o(n)
+searching - o(n)
+access - o(n)
+
+Big O of DDL:
+insertion - o(1)
+removal - o(1) --> big different from SLL (o(n)) because we can access tail.previous;
+searching - o(n) --> technically o(n/2)
+access - o(n)
+
+DDL are almost identical to SLL, except there is an additional pointer
+to previous node.
+
+Better than SLL for finding nodes and can be done in half the time
+
+DLL take up more memory considering the extra pointer per node

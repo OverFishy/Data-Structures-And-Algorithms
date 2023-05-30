@@ -1,0 +1,14 @@
+Heapes are trees, everything that applies to trees in general applies to heapes.
+
+Binary heap - very similar to binary search tree, but with some
+              different rules, left/right nodes are not ordered by value.
+              in a MaxBinayHeap, parent nodes are always larger
+              than child nodes. in MinBinaryHeap, parent nodes are always
+              smaller than child nodes.
+
+Max Binary Heap - each parent have 2 node childer.
+                  the value of a node parent is always greater then the value of
+                  child. no guarantee between sibling nodes.
+                  binary heap is as compact as possible, all children of each node
+                  are full (left & right) before moving onto the next.
+                  we fill the left node first, than the right.
